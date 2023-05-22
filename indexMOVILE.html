@@ -3,8 +3,17 @@
 <head>
   <title>San Marino</title>
   <link rel="stylesheet" type="text/css" href="stylesMovile.css"> <!-- Enlace al archivo CSS -->
+  <link rel="icon" href="Imagenes/LOGO/IconoPestaña.png">
 </head>
 <body>
+  <script type="text/javascript">
+            
+    if (screen.width >= 800) {
+    document.location = "indexPC.html";
+    }else{
+      document.location = "indexMOVILE.html";
+    }
+</script>
 <header>
   <img src="Imagenes/LOGO/logo.png" alt="Logo" class="logo">
   <nav>
@@ -17,7 +26,6 @@
         <ul>
         <li><a href="#">Inicio</a></li> <!-- Opción de navegación: Inicio -->
         <li><a href="#">Menu</a></li> <!-- Opción de navegación: Menú -->
-        <li><a href="#">Reservas</a></li> <!-- Opción de navegación: Reservas -->
         <li><a href="#">Contacto</a></li> <!-- Opción de navegación: Contacto -->
       </ul>
     </nav>
@@ -41,7 +49,7 @@
       <h3>Información de contacto</h3>
       <ul>
         <li>Dirección: Sarmiento 4200, CABA, Argentina</li>
-        <li>Teléfono: +54 4865-7273</li>
+        <li>Teléfono: 4865-7273</li>
         <li>Correo electrónico: info@restaurantexample.com</li>
       </ul>
     </div>
@@ -51,8 +59,6 @@
         <li>Lunes a Viernes: 6am - 6pm</li>
         <li>Sábados: 6am - 4pm</li>
       </ul>
-    </div>
-    <div class="columna">
       <h3>Síguenos en redes sociales</h3>
       <ul>
         <li><a href="#">Facebook</a></li>
@@ -61,6 +67,6 @@
       </ul>
     </div>
   </div>
-  <div class="derechos">® 2023 SanMarino. Todos los derechos reservados.</div>
+  <div class="derechos">® 2023 Rivero S.H. Todos los derechos reservados.</div>
 </footer>
 </html>
