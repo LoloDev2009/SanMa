@@ -5,7 +5,7 @@
   }
   
   body {
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
     font-size: 16px;
     line-height: 1.5;
   }
@@ -180,4 +180,59 @@
 .columnaMenu ul{
   margin-inline: 30px
 
+}
+
+/* Los estilos anteriores se mantienen */
+
+.carousel {
+  position: relative;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.carousel-navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.carousel-slide span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 45px;
+  color: #b0b0b0;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.carousel-slide .prev {
+  left: 10px;
+}
+
+.carousel-slide .next {
+  right: 10px;
+}
+.history {
+  padding: 50px;
+}
+
+.history h2 {
+  font-size: 24px;
+}
+
+.history p {
+  font-size: 16px;
+  line-height: 1.5;
 }
