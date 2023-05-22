@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.logo {
+  flex: 0 0 auto;
+  width: 120px;
+  height: 120px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+.columnaMenu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.columnaMenu h3 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-right: 230px;
+}
+
+.columnaMenu ul li {
+  font-size: 30px;
+}
+
+.columnaMenu ul {
+  margin-inline: 30px;
+}
+
+.carousel {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.carousel-slide span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 45px;
+  color: #b0b0b0;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.carousel-slide .prev {
+  left: 10px;
+}
+
+.carousel-slide .next {
+  right: 10px;
+}
+
+.history {
+  padding: 50px;
+}
+
+.history h2 {
+  font-size: 24px;
+  margin-bottom: 1rem;
+}
+
+.history p {
+  text-align: justify;
+}
+
+.testimonios {
+  padding: 50px;
+}
+
+.testimonios h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.testimonios-lista {
+  list-style: none;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 30px 0;
+  color: #444;
+}
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+
+.columna {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.columna h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.columna ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.columna ul li {
+  margin-bottom: 5px;
+}
+
+.columna ul li a {
+  color: #444;
+  text-decoration: none;
+}
+
+.derechos {
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ddd;
+  color: #777;
+}
