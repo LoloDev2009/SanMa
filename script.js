@@ -5,6 +5,7 @@ const slides = carouselSlide.querySelectorAll('img');
 // Seleccionar los botones de navegación
 const prevBtn = document.querySelector('.prev');
 const nextBtn = document.querySelector('.next');
+
 // Variable para mantener el índice de la diapositiva actual
 let slideIndex = 0;
 
@@ -35,18 +36,3 @@ prevBtn.addEventListener('click', prevSlide);
 
 // Mostrar la primera imagen inicialmente
 showSlide(slideIndex);
-
-const menuIcon = document.querySelector('.menu-icon');
-const menu = document.querySelector('.menu');
-
-menuIcon.addEventListener('click', () => {
-  menu.classList.toggle('active');
-});
-
-function toggleMenu() {
-  const menuIcon = document.querySelector('.menu-icon');
-  const menu = document.querySelector('.menu');
-  
-  menuIcon.classList.toggle('open');
-  menu.classList.toggle('open');
-}
