@@ -82,7 +82,7 @@ nav a:hover {
 
 .carousel {
   position: relative;
-  max-width: 100%;
+  width: 100%;
 }
 
 .carousel-slide {
