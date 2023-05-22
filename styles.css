@@ -187,10 +187,11 @@ footer {
 .columna ul li a {
   color: #444;
   text-decoration: none;
+
 }
 
 .derechos {
-  font-size: 14px;
+  font-size: px;
   text-align: center;
   padding: 20px 0;
   background-color: #ddd;

@@ -142,7 +142,6 @@ footer {
 }
 
 .columna h3 {
-  font-size: 45px;
   margin-bottom: 10px;
 }
 
@@ -159,6 +158,7 @@ footer {
 .columna ul li a {
   color: #444;
   text-decoration: none;
+  font-size: 30px;
 }
 
 .derechos {
