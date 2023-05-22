@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Restaurante</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>San Marino</title>
+  <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Enlace al archivo CSS -->
 </head>
 <body>
-  <header>
-    <img src="logo.png" alt="Logo" style="width: 60px;">
-    <nav>
-      <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Menu</a></li>
-        <li><a href="#">Reservas</a></li>
-        <li><a href="#">Contacto</a></li>
+<header>
+  <img src="logo.png" alt="Logo" class="logo">
+  <nav>
+    <div class="menu-icon" onclick="toggleMenu()">
+      <div class="line"></div>
+      <div class="line"></div>
+      <div class="line"></div>
+    </div>
+      <nav class="menu">
+        <ul>
+        <li><a href="#">Inicio</a></li> <!-- Opción de navegación: Inicio -->
+        <li><a href="#">Menu</a></li> <!-- Opción de navegación: Menú -->
+        <li><a href="#">Reservas</a></li> <!-- Opción de navegación: Reservas -->
+        <li><a href="#">Contacto</a></li> <!-- Opción de navegación: Contacto -->
       </ul>
     </nav>
   </header>
 
-  <section class="carousel">
+  <section class="carousel"> <!-- Carrusel de imágenes -->
     <div class="carousel-slide">
-      <span class="prev">&#10094;</span>
-      <img src="Imagen1.jpg" alt="Imagen 1">
-      <img src="Imagen2.jpg" alt="Imagen 2">
-      <img src="Imagen3.jpg" alt="Imagen 3">
-      <span class="next">&#10095;</span>
+      <span class="prev">&#10094;</span> <!-- Flecha de navegación hacia atrás -->
+      <img src="Imagen1.jpg" alt="Imagen 1"> <!-- Primera imagen -->
+      <img src="Imagen2.jpg" alt="Imagen 2"> <!-- Segunda imagen -->
+      <img src="Imagen3.jpg" alt="Imagen 3"> <!-- Tercera imagen -->
+      <span class="next">&#10095;</span> <!-- Flecha de navegación hacia adelante -->
     </div>
   </section>
-
-  <section class="history">
-    <h2>Historia del Restaurante</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor, purus nec commodo tristique, elit eros fringilla mauris, sit amet lacinia eros lectus non risus. Duis a lectus ut ligula pharetra sollicitudin. Maecenas fringilla aliquet quam, a consectetur purus laoreet et.</p>
-  </section>
-
-  <script src="script.js"></script>
+  <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
 </body>
 
 <footer id="contacto">
   <div class="contenedor">
     <div class="columna">
-      <h3>Informaci├│n de contacto</h3>
+      <h3>Información de contacto</h3>
       <ul>
-        <li>Direcci├│n: Sarmiento 4200, CABA, Argentina</li>
-        <li>Tel├®fono: +54 4865-7273</li>
-        <li>Correo electr├│nico: info@restaurantexample.com</li>
+        <li>Dirección: Sarmiento 4200, CABA, Argentina</li>
+        <li>Teléfono: +54 4865-7273</li>
+        <li>Correo electrónico: info@restaurantexample.com</li>
       </ul>
     </div>
     <div class="columna">
-      <h3>Horario de atenci├│n</h3>
+      <h3>Horario de atención</h3>
       <ul>
-        <li>Lunes a Viernes: 11am - 10pm</li>
-        <li>S├íbado y Domingo: 12pm - 11pm</li>
+        <li>Lunes a Viernes: 6am - 6pm</li>
+        <li>Sábados: 6am - 4pm</li>
       </ul>
     </div>
     <div class="columna">
-      <h3>S├¡guenos en redes sociales</h3>
+      <h3>Síguenos en redes sociales</h3>
       <ul>
         <li><a href="#">Facebook</a></li>
         <li><a href="https://www.instagram.com/sanmarinocafebar/">Instagram</a></li>
@@ -61,6 +61,6 @@
       </ul>
     </div>
   </div>
-  <div class="derechos">┬® 2023 Restaurante Example. Todos los derechos reservados.</div>
+  <div class="derechos">® 2023 SanMarino. Todos los derechos reservados.</div>
 </footer>
 </html>

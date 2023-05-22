@@ -1,187 +1,57 @@
+/* Estilos generales */
+
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #f8f8f8;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-  }
-  
-  .logo {
-    flex: 1;
-  }
-  
-  .logo img {
-    max-width: 100%;
-  }
-  
-  nav ul {
-    display: flex;
-    list-style: none;
-  }
-  
-  nav li {
-    margin-left: 1rem;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-  }
-  
-  nav a:hover {
-    color: #000;
-  }
-  
-  main {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-  
-  .historia h2 {
-    margin-bottom: 1rem;
-  }
-  
-  .historia p {
-    text-align: justify;
-  }
-      
-  footer {
-    background-color: #f2f2f2;
-    padding: 30px 0;
-    color: #444;
-  }
-  
-  .contenedor {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 30px;
-  }
-  
-  .columna {
-    width: 30%;
-    margin-bottom: 30px;
-  }
-  
-  .columna h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .columna ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .columna ul li {
-    margin-bottom: 5px;
-  }
-  
-  .columna ul li a {
-    color: #444;
-    text-decoration: none;
-  }
-  
-  .derechos {
-    font-size: 14px;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #ddd;
-    color: #777;
-  }
-
-  #blog {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 50px 0;
-  }
-  
-  .post {
-    width: calc(33.33% - 20px);
-    margin-bottom: 30px;
-    text-align: center;
-  }
-  
-  .post img {
-    width: 100%;
-    border-radius: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .post h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
-  .post p {
-    font-size: 14px;
-    line-height: 1.4;
-    margin-bottom: 10px;
-  }
-  
-  .post a {
-    font-size: 14px;
-    color: #fff;
-    background-color: #FCA311;
-    border-radius: 5px;
-    padding: 10px 20px;
-    transition: all 0.2s ease-in-out;
-  }
-  
-  .post a:hover {
-    background-color: #F37021;
-    transform: scale(1.1);
-  }
-  
-.menu{
-  margin-left: 50px
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.columnaMenu{
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Estilos de la barra de navegación */
+
+header {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 30px;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
-.columnaMenu h3 {
-  font-size: 50px;
-  margin-bottom: 10px;
-  margin-right: 230px;
-}
-.columnaMenu ul li {
-  font-size: 30px;
+.logo {
+  flex: 1;
+  max-width: 60px;  
+  max-height: 60px; /* Ajusta el tamaño máximo del logo */
 }
 
-.columnaMenu ul{
-  margin-inline: 30px
 
+nav ul {
+  display: flex;
+  list-style: none;
 }
 
-/* Los estilos anteriores se mantienen */
+nav li {
+  margin-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/* Estilos del carrusel de imágenes */
 
 .carousel {
   position: relative;
@@ -223,15 +93,131 @@
 .carousel-slide .next {
   right: 10px;
 }
-.history {
-  padding: 50px;
+
+/* Otros estilos */
+
+/* Estilos del pie de página */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 30px 0;
+  color: #444;
 }
 
-.history h2 {
-  font-size: 24px;
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
 }
 
-.history p {
-  font-size: 16px;
-  line-height: 1.5;
+.columna {
+  width: 30%;
+  margin-bottom: 30px;
+}
+
+.columna h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.columna ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.columna ul li {
+  margin-bottom: 5px;
+}
+
+.columna ul li a {
+  color: #444;
+  text-decoration: none;
+}
+
+.derechos {
+  font-size: 14px;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #ddd;
+  color: #777;
+}
+
+/* Estilos anteriores */
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px 0;
+}
+
+.menu.active {
+  display: block;
+}
+
+/* Estilos para el ícono del menú */
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.menu-icon .line {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+  transition: transform 0.3s ease-in-out;
+}
+
+.menu-icon.open .line:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.menu-icon.open .line:nth-child(2) {
+  opacity: 0;
+}
+
+.menu-icon.open .line:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+.menu {
+  display: none;
+}
+
+.menu.open {
+  display: block;
+}
+
+/* Estilos adicionales */
+@media screen and (min-width: 768px) {
+  .menu-icon {
+    display: none;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    position: static;
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .menu ul {
+    display: flex;
+  }
+
+  .menu li {
+    margin-left: 1rem;
+  }
 }
