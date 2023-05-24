@@ -80,9 +80,10 @@ nav a:hover {
   margin-inline: 30px;
 }
 
+/*Carrousel*/
 .carousel {
   position: relative;
-  width: 100%;
+  width: 50%;
 }
 
 .carousel-slide {
@@ -98,6 +99,50 @@ nav a:hover {
 }
 
 .carousel-navigation {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+}
+
+.carousel-slidemenu span {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 45px;
+  color: #b0b0b0;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.carousel-slidemenu .prev {
+  left: 10px;
+}
+
+.carousel-slidemenu .next {
+  right: 10px;
+}
+
+/*Carrousel*/
+.carouselmenu {
+  position: relative;
+  width: 100%;
+}
+
+.carousel-slidemenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.carousel-slidemenu img {
+  width: 100%;
+  height: auto;
+}
+
+.carousel-navigationmenu {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
