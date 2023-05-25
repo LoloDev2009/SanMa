@@ -83,7 +83,7 @@ nav a:hover {
 /*Carrousel*/
 .carousel {
   position: relative;
-  width: 50%;
+  width: 100%;
 }
 
 .carousel-slide {
@@ -95,54 +95,10 @@ nav a:hover {
 
 .carousel-slide img {
   width: 100%;
-  height: auto;
+  height: 50%;
 }
 
 .carousel-navigation {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  display: flex;
-  align-items: center;
-}
-
-.carousel-slidemenu span {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 45px;
-  color: #b0b0b0;
-  cursor: pointer;
-  padding: 10px;
-}
-
-.carousel-slidemenu .prev {
-  left: 10px;
-}
-
-.carousel-slidemenu .next {
-  right: 10px;
-}
-
-/*Carrousel*/
-.carouselmenu {
-  position: relative;
-  width: 100%;
-}
-
-.carousel-slidemenu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
-
-.carousel-slidemenu img {
-  width: 100%;
-  height: auto;
-}
-
-.carousel-navigationmenu {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -161,13 +117,12 @@ nav a:hover {
 }
 
 .carousel-slide .prev {
-  left: 10px;
+  left: 50%;
 }
 
 .carousel-slide .next {
   right: 10px;
 }
-
 .history {
   padding: 50px;
 }

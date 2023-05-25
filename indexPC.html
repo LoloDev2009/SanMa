@@ -3,6 +3,17 @@
 <head>
   <title>San Marino</title>
   <link rel="stylesheet" type="text/css" href="styles.css"> <!-- Enlace al archivo CSS -->
+  <!--<style>
+    .half-width-image {
+      width: 50%;
+      float: left;
+      height: 50%;
+    }
+    .carousel-container {
+      width: 50%;
+      float: right;
+    }
+  </style>-->
 </head>
 <body>
   <script type="text/javascript">
@@ -12,7 +23,7 @@
     }
 </script>
 <header>
-  <img src="Imagenes/LOGO/logo.png" alt="Logo" class="logo">
+<img src="Imagenes/LOGO/logo.png" alt="Logo" class="logo">
   <nav>
     <div class="menu-icon" onclick="toggleMenu()">
       <div class="line"></div>
@@ -27,28 +38,20 @@
       </ul>
     </nav>
   </header>
-  <section class="carusel"> <!--Inicio-->
-    <div class="carusel-slide">
+  <div class="content">
+  <!--<img src="Imagenes/MENU-CARROUSEL-PRESENTACION/1.png" alt="Imagen" class="half-width-image">-->
+    <div class="carousel-container">
+      <section class="carousel">
+        <div class="carousel-slide">
+          <span class="prev">&#10094;</span>
+          <img class="desktop-image" src="Imagenes/PC/4.png" alt="Imagen 1">
+          <img class="desktop-image" src="Imagenes/PC/5.png" alt="Imagen 2">
+          <img class="desktop-image" src="Imagenes/PC/6.png" alt="Imagen 3">
+          <span class="next">&#10095;</span>
+        </div>
+      </section>
     </div>
-  </section> 
-  <section class="carousel"> <!--Inicio-->
-    <div class="carousel-slide">
-      <span class="prev">&#10094;</span>
-      <img class="desktop-image" src="Imagenes/CARUSEL-MENU/1.jpg" alt="Imagen 1">
-      <img class="desktop-image" src="Imagenes/CARUSEL-MENU/2.jpg" alt="Imagen 2">
-      <img class="desktop-image" src="Imagenes/CARUSEL-MENU/3.jpg" alt="Imagen 3">
-      <span class="next">&#10095;</span>
-    </div>
-  </section>  
-<!--  <section class="carouselmenu">
-    <div class="carousel-slidemenu">
-      <span class="prevmenu">&#10094;</span>
-      <img class="desktop-imagemenu" src="Imagenes/CARUSEL-MENU/1.jpg" alt="Imagen 1">
-      <img class="desktop-imagemenu" src="Imagenes/CARUSEL-MENU/2.jpg" alt="Imagen 2">
-      <img class="desktop-imagemenu" src="Imagenes/CARUSEL-MENU/3.jpg" alt="Imagen 3">
-      <span class="nextmenu">&#10095;</span>
-    </div>
-  </section>  -->
+  </div>
   <script src="script.js"></script> <!-- Enlace al archivo JavaScript -->
 </body>
 
