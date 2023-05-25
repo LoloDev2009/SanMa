@@ -1,0 +1,27 @@
+<section id="menu">
+    <h1>Menú</h1>
+    <div class="platos">
+      <div class="plato">
+        <div class="descripcion">
+          <h3>Nombre del plato 1</h3>
+          <p>Descripción del plato 1</p>
+          <span class="precio">$15.00</span>
+        </div>
+      </div>
+      <div class="plato">
+        <div class="descripcion">
+          <h3>Nombre del plato 2</h3>
+          <p>Descripción del plato 2</p>
+          <span class="precio">$20.00</span>
+        </div>
+      </div>
+      <div class="plato">
+        <div class="descripcion">
+          <h3>Nombre del plato 3</h3>
+          <p>Descripción del plato 3</p>
+          <span class="precio">$18.00</span>
+        </div>
+      </div>
+    </div>
+  </section>
+  
